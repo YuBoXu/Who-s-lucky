@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04569B791C5A10CF00712037 /* NumberSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04569B771C5A10CF00712037 /* NumberSettingViewController.swift */; };
+		04569B7A1C5A10CF00712037 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04569B781C5A10CF00712037 /* SettingViewController.swift */; };
+		04569B801C5A14A600712037 /* ImageResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04569B7D1C5A14A600712037 /* ImageResultViewController.swift */; };
+		04569B811C5A14A600712037 /* NumberResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04569B7E1C5A14A600712037 /* NumberResultViewController.swift */; };
+		04569B821C5A14A600712037 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04569B7F1C5A14A600712037 /* UIImage+Gif.swift */; };
+		04569B861C5A1AA500712037 /* DKCamera in Resources */ = {isa = PBXBuildFile; fileRef = 04569B831C5A1AA500712037 /* DKCamera */; };
+		04569B871C5A1AA500712037 /* DKImageManager in Resources */ = {isa = PBXBuildFile; fileRef = 04569B841C5A1AA500712037 /* DKImageManager */; };
+		04569B881C5A1AA500712037 /* DKImagePickerController in Resources */ = {isa = PBXBuildFile; fileRef = 04569B851C5A1AA500712037 /* DKImagePickerController */; };
 		04DB5F191C5764FE005E5A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB5F181C5764FE005E5A7D /* AppDelegate.swift */; };
 		04DB5F1B1C5764FE005E5A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB5F1A1C5764FE005E5A7D /* ViewController.swift */; };
 		04DB5F1E1C5764FE005E5A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DB5F1C1C5764FE005E5A7D /* Main.storyboard */; };
@@ -20,6 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04569B771C5A10CF00712037 /* NumberSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberSettingViewController.swift; sourceTree = "<group>"; };
+		04569B781C5A10CF00712037 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		04569B7D1C5A14A600712037 /* ImageResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResultViewController.swift; sourceTree = "<group>"; };
+		04569B7E1C5A14A600712037 /* NumberResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberResultViewController.swift; sourceTree = "<group>"; };
+		04569B7F1C5A14A600712037 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		04569B831C5A1AA500712037 /* DKCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DKCamera; sourceTree = "<group>"; };
+		04569B841C5A1AA500712037 /* DKImageManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DKImageManager; sourceTree = "<group>"; };
+		04569B851C5A1AA500712037 /* DKImagePickerController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DKImagePickerController; sourceTree = "<group>"; };
 		04DB5F151C5764FE005E5A7D /* Who's lucky?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who's lucky?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DB5F181C5764FE005E5A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DB5F1A1C5764FE005E5A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,12 +82,20 @@
 		04DB5F171C5764FE005E5A7D /* Who's lucky? */ = {
 			isa = PBXGroup;
 			children = (
+				04569B831C5A1AA500712037 /* DKCamera */,
+				04569B841C5A1AA500712037 /* DKImageManager */,
+				04569B851C5A1AA500712037 /* DKImagePickerController */,
 				04DB5F2D1C576DB8005E5A7D /* Icon */,
 				04DB5F2E1C576DB8005E5A7D /* appBackground */,
 				04DB5F2F1C576DB8005E5A7D /* appImage */,
 				04DB5F301C576DB8005E5A7D /* music */,
 				04DB5F181C5764FE005E5A7D /* AppDelegate.swift */,
 				04DB5F1A1C5764FE005E5A7D /* ViewController.swift */,
+				04569B771C5A10CF00712037 /* NumberSettingViewController.swift */,
+				04569B781C5A10CF00712037 /* SettingViewController.swift */,
+				04569B7D1C5A14A600712037 /* ImageResultViewController.swift */,
+				04569B7E1C5A14A600712037 /* NumberResultViewController.swift */,
+				04569B7F1C5A14A600712037 /* UIImage+Gif.swift */,
 				04DB5F1C1C5764FE005E5A7D /* Main.storyboard */,
 				04DB5F1F1C5764FE005E5A7D /* Assets.xcassets */,
 				04DB5F211C5764FE005E5A7D /* LaunchScreen.storyboard */,
@@ -139,13 +163,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04569B861C5A1AA500712037 /* DKCamera in Resources */,
 				04DB5F331C576DB8005E5A7D /* appImage in Resources */,
 				04DB5F231C5764FE005E5A7D /* LaunchScreen.storyboard in Resources */,
 				04DB5F311C576DB8005E5A7D /* Icon in Resources */,
 				04DB5F201C5764FE005E5A7D /* Assets.xcassets in Resources */,
 				04DB5F1E1C5764FE005E5A7D /* Main.storyboard in Resources */,
 				04DB5F341C576DB8005E5A7D /* music in Resources */,
+				04569B871C5A1AA500712037 /* DKImageManager in Resources */,
 				04DB5F321C576DB8005E5A7D /* appBackground in Resources */,
+				04569B881C5A1AA500712037 /* DKImagePickerController in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,8 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04569B791C5A10CF00712037 /* NumberSettingViewController.swift in Sources */,
 				04DB5F1B1C5764FE005E5A7D /* ViewController.swift in Sources */,
+				04569B821C5A14A600712037 /* UIImage+Gif.swift in Sources */,
+				04569B811C5A14A600712037 /* NumberResultViewController.swift in Sources */,
 				04DB5F191C5764FE005E5A7D /* AppDelegate.swift in Sources */,
+				04569B801C5A14A600712037 /* ImageResultViewController.swift in Sources */,
+				04569B7A1C5A10CF00712037 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +303,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Who's lucky?/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yubo.lucky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,7 +317,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Who's lucky?/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yubo.lucky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +343,7 @@
 				04DB5F291C5764FE005E5A7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

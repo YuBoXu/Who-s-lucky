@@ -86,7 +86,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="图片模式" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eN2-nk-Avu">
-                                <rect key="frame" x="112" y="332" width="96" height="34"/>
+                                <rect key="frame" x="112" y="335" width="96" height="28"/>
                                 <fontDescription key="fontDescription" name="MicrosoftYaHei" family="Microsoft YaHei" pointSize="24"/>
                                 <color key="textColor" red="0.32549019610000002" green="0.41176470590000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -126,6 +126,7 @@
                     <navigationItem key="navigationItem" id="aK3-4d-X7i"/>
                     <connections>
                         <outlet property="bgMusic" destination="JWP-pv-4Rw" id="nwm-vB-tp9"/>
+                        <outlet property="imageText" destination="eN2-nk-Avu" id="JPe-Ej-GHT"/>
                         <outlet property="numberText" destination="wjj-Nf-Szv" id="TnA-IY-OoT"/>
                     </connections>
                 </viewController>
@@ -136,7 +137,7 @@
         <!--图片模式设置-->
         <scene sceneID="5uh-xn-Hhf">
             <objects>
-                <viewController id="QcC-uL-beQ" sceneMemberID="viewController">
+                <viewController id="QcC-uL-beQ" customClass="SettingViewController" customModule="Who_s_lucky_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PeO-qt-q6P"/>
                         <viewControllerLayoutGuide type="bottom" id="mA7-dB-LC3"/>
@@ -251,9 +252,6 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="imageSendClicked:" destination="QcC-uL-beQ" eventType="touchUpInside" id="rTr-px-nTo"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbk-wt-bRY">
                                 <rect key="frame" x="171" y="214" width="20" height="21"/>
@@ -436,7 +434,7 @@
         <!--数字模式设置-->
         <scene sceneID="IMJ-qu-NiX">
             <objects>
-                <viewController id="GPU-BY-1b0" sceneMemberID="viewController">
+                <viewController id="GPU-BY-1b0" customClass="NumberSettingViewController" customModule="Who_s_lucky_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="03R-jg-PAa"/>
                         <viewControllerLayoutGuide type="bottom" id="QEB-SN-ime"/>
@@ -712,10 +710,10 @@ Rmlyc3QgQmFzZWxpbmUgQWxpZ25tZW50IC0g5b+r6YCf5oq95Y+WLCDliIbmibnmir3lj5YgLSAI5oq9
             </objects>
             <point key="canvasLocation" x="1952" y="583"/>
         </scene>
-        <!--View Controller-->
+        <!--Number Result View Controller-->
         <scene sceneID="E0u-gY-1e1">
             <objects>
-                <viewController storyboardIdentifier="NumberResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qi6-GI-QCi" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NumberResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qi6-GI-QCi" customClass="NumberResultViewController" customModule="Who_s_lucky_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bSd-WL-Pn3"/>
                         <viewControllerLayoutGuide type="bottom" id="OiV-Rr-21S"/>
@@ -840,10 +838,10 @@ Rmlyc3QgQmFzZWxpbmUgQWxpZ25tZW50IC0g5b+r6YCf5oq95Y+WLCDliIbmibnmir3lj5YgLSAI5oq9
             </objects>
             <point key="canvasLocation" x="2436" y="538"/>
         </scene>
-        <!--View Controller-->
+        <!--Image Result View Controller-->
         <scene sceneID="wbt-Dg-af1">
             <objects>
-                <viewController storyboardIdentifier="ImageResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Puh-uJ-Nel" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Puh-uJ-Nel" customClass="ImageResultViewController" customModule="Who_s_lucky_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9ke-Y5-ft3"/>
                         <viewControllerLayoutGuide type="bottom" id="U4Z-gr-f6h"/>
