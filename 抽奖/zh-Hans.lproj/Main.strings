@@ -1,0 +1,111 @@
+
+/* Class = "UILabel"; text = "特等奖"; ObjectID = "1GO-hJ-yFf"; */
+"1GO-hJ-yFf.text" = "特等奖";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "1gG-jh-MLf"; */
+"1gG-jh-MLf.text" = "1";
+
+/* Class = "UILabel"; text = "图片模式"; ObjectID = "5dv-Wl-gkt"; */
+"5dv-Wl-gkt.text" = "图片模式";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "9LK-Xu-zgH"; */
+"9LK-Xu-zgH.text" = "1";
+
+/* Class = "UILabel"; text = "获奖名称"; ObjectID = "Ara-Ih-Wg2"; */
+"Ara-Ih-Wg2.text" = "获奖名称";
+
+/* Class = "UILabel"; text = "总人数"; ObjectID = "I3i-lI-JvV"; */
+"I3i-lI-JvV.text" = "总人数";
+
+/* Class = "UINavigationItem"; title = "图片模式设置"; ObjectID = "JaG-Rf-vln"; */
+"JaG-Rf-vln.title" = "图片模式设置";
+
+/* Class = "UILabel"; text = "图片上传"; ObjectID = "M9a-Iz-ijN"; */
+"M9a-Iz-ijN.text" = "图片上传";
+
+/* Class = "UILabel"; text = "Who is luck?"; ObjectID = "OZW-hL-oEH"; */
+"OZW-hL-oEH.text" = "Who is luck?";
+
+/* Class = "UILabel"; text = "完成"; ObjectID = "Oul-9x-ylt"; */
+"Oul-9x-ylt.text" = "完成";
+
+/* Class = "UILabel"; text = "Who is luck?"; ObjectID = "P6D-xX-5VB"; */
+"P6D-xX-5VB.text" = "Who is luck?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QUr-R7-Cd8"; */
+"QUr-R7-Cd8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "获奖名称"; ObjectID = "RnZ-Jx-qeL"; */
+"RnZ-Jx-qeL.text" = "获奖名称";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "S2W-xG-3b1"; */
+"S2W-xG-3b1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "s"; ObjectID = "V3l-dP-1Of"; */
+"V3l-dP-1Of.text" = "s";
+
+/* Class = "UISegmentedControl"; XHv-Il-VnJ.segmentTitles[0] = "快速抽取"; ObjectID = "XHv-Il-VnJ"; */
+"XHv-Il-VnJ.segmentTitles[0]" = "快速抽取";
+
+/* Class = "UISegmentedControl"; XHv-Il-VnJ.segmentTitles[1] = "分批抽取"; ObjectID = "XHv-Il-VnJ"; */
+"XHv-Il-VnJ.segmentTitles[1]" = "分批抽取";
+
+/* Class = "UILabel"; text = "获奖人员可重复"; ObjectID = "XoF-4h-F2e"; */
+"XoF-4h-F2e.text" = "获奖人员可重复";
+
+/* Class = "UILabel"; text = "获奖人员可重复"; ObjectID = "apP-6D-IcX"; */
+"apP-6D-IcX.text" = "获奖人员可重复";
+
+/* Class = "UILabel"; text = "摇奖时间"; ObjectID = "cpm-Tk-0yd"; */
+"cpm-Tk-0yd.text" = "摇奖时间";
+
+/* Class = "UITextField"; text = " 特等奖"; ObjectID = "djb-Wx-wY1"; */
+"djb-Wx-wY1.text" = " 特等奖";
+
+/* Class = "UILabel"; text = "\b抽取方式"; ObjectID = "e49-Oq-ZSF"; */
+"e49-Oq-ZSF.text" = "\b抽取方式";
+
+/* Class = "UILabel"; text = "s"; ObjectID = "e8d-6o-nH9"; */
+"e8d-6o-nH9.text" = "s";
+
+/* Class = "UILabel"; text = "开始"; ObjectID = "fNJ-Z2-FKo"; */
+"fNJ-Z2-FKo.text" = "开始";
+
+/* Class = "UITextField"; text = "2"; ObjectID = "gLI-Ta-Unq"; */
+"gLI-Ta-Unq.text" = "2";
+
+/* Class = "UILabel"; text = "抽取人数"; ObjectID = "iFN-02-BfY"; */
+"iFN-02-BfY.text" = "抽取人数";
+
+/* Class = "UILabel"; text = "摇奖时间"; ObjectID = "ijl-8E-cHc"; */
+"ijl-8E-cHc.text" = "摇奖时间";
+
+/* Class = "UILabel"; text = "抽取人数"; ObjectID = "k1n-vs-YaR"; */
+"k1n-vs-YaR.text" = "抽取人数";
+
+/* Class = "UITextField"; text = "2"; ObjectID = "kqj-AO-hJo"; */
+"kqj-AO-hJo.text" = "2";
+
+/* Class = "UILabel"; text = "开始"; ObjectID = "lx0-jr-l2w"; */
+"lx0-jr-l2w.text" = "开始";
+
+/* Class = "UILabel"; text = "总人数"; ObjectID = "mRP-Ds-x4L"; */
+"mRP-Ds-x4L.text" = "总人数";
+
+/* Class = "UITextField"; text = "2"; ObjectID = "qsy-ni-Iv4"; */
+"qsy-ni-Iv4.text" = "2";
+
+/* Class = "UILabel"; text = "完成"; ObjectID = "rJV-4N-bYA"; */
+"rJV-4N-bYA.text" = "完成";
+
+/* Class = "UITextField"; text = "特等奖"; ObjectID = "tZI-BO-B7l"; */
+"tZI-BO-B7l.text" = "特等奖";
+
+/* Class = "UINavigationItem"; title = "数字模式设置"; ObjectID = "wAO-SI-LHL"; */
+"wAO-SI-LHL.title" = "数字模式设置";
+
+/* Class = "UITextField"; text = "2"; ObjectID = "xFh-qh-kgK"; */
+"xFh-qh-kgK.text" = "2";
+
+/* Class = "UILabel"; text = "数字模式"; ObjectID = "xM9-oO-kX0"; */
+"xM9-oO-kX0.text" = "数字模式";

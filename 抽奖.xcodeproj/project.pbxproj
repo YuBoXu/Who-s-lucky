@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040103531AC005D700B33FE0 /* u40.png in Resources */ = {isa = PBXBuildFile; fileRef = 040103521AC005D700B33FE0 /* u40.png */; };
+		040103551AC013B300B33FE0 /* image_takePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 040103541AC013B300B33FE0 /* image_takePhoto.png */; };
+		0405FC701AEE2D4A00A56ACE /* image_border_v1.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC6F1AEE2D4A00A56ACE /* image_border_v1.1.png */; };
+		0405FC721AEE827800A56ACE /* background@v1.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC711AEE827800A56ACE /* background@v1.0.png */; };
+		0405FC851AEE877500A56ACE /* icon3-Setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC7F1AEE877500A56ACE /* icon3-Setting@2x.png */; };
+		0405FC861AEE877500A56ACE /* icon3-Spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC801AEE877500A56ACE /* icon3-Spotlight@2x.png */; };
+		0405FC871AEE877500A56ACE /* icon3-Spotlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC811AEE877500A56ACE /* icon3-Spotlight@3x.png */; };
+		0405FC881AEE877500A56ACE /* icon3@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC821AEE877500A56ACE /* icon3@1x.png */; };
+		0405FC891AEE877500A56ACE /* icon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC831AEE877500A56ACE /* icon3@2x.png */; };
+		0405FC8A1AEE877500A56ACE /* icon3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0405FC841AEE877500A56ACE /* icon3@3x.png */; };
+		041718C91C5E6C8600AACC82 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 041718C81C5E6C8600AACC82 /* zh-Hans.lproj */; };
+		041718CC1C5E6C9300AACC82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041718CA1C5E6C9300AACC82 /* LaunchScreen.xib */; };
+		041EEEF91AD98E7B00D59875 /* xingxing_yuan_wubeijing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 041EEEF81AD98E7B00D59875 /* xingxing_yuan_wubeijing.gif */; };
+		0424D45B1C5B6D8200D87777 /* blue_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0424D45A1C5B6D8200D87777 /* blue_line.png */; };
+		0424D4631C5B719E00D87777 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424D4621C5B719E00D87777 /* Photos.framework */; };
+		0424D4671C5B756C00D87777 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0424D4641C5B756C00D87777 /* background@2x.png */; };
+		0424D4681C5B756C00D87777 /* background@5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0424D4651C5B756C00D87777 /* background@5.png */; };
+		0424D4691C5B756C00D87777 /* background@4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0424D4661C5B756C00D87777 /* background@4.png */; };
+		042822B71A9B5CDF00B60DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042822B61A9B5CDF00B60DA9 /* AppDelegate.swift */; };
+		042822B91A9B5CDF00B60DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042822B81A9B5CDF00B60DA9 /* ViewController.swift */; };
+		042822BC1A9B5CDF00B60DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042822BA1A9B5CDF00B60DA9 /* Main.storyboard */; };
+		042822BE1A9B5CDF00B60DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042822BD1A9B5CDF00B60DA9 /* Images.xcassets */; };
+		042822CD1A9B5CDF00B60DA9 /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042822CC1A9B5CDF00B60DA9 /* __Tests.swift */; };
+		045B3E091AB349B90034B65D /* photo_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045B3E081AB349B90034B65D /* photo_checked@2x.png */; };
+		0475F7A41AA4141400447A70 /* button_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0475F7A31AA4141400447A70 /* button_blue.png */; };
+		0479358A1AA49D730068556F /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 047935881AA49D730068556F /* pause.png */; };
+		0479358B1AA49D730068556F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 047935891AA49D730068556F /* play.png */; };
+		04861B391AB854EE00ABB054 /* 5-blue-menu-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04861B381AB854EE00ABB054 /* 5-blue-menu-bar@2x.png */; };
+		04861B3D1AB85F9600ABB054 /* blue-menu-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 04861B3C1AB85F9600ABB054 /* blue-menu-bar.png */; };
+		04861B431AB8745B00ABB054 /* 5-blue-background@color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04861B421AB8745B00ABB054 /* 5-blue-background@color.jpg */; };
+		04861B491AB9135F00ABB054 /* blue-navigation-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 04861B481AB9135F00ABB054 /* blue-navigation-bar.png */; };
+		04861B511AB91A0700ABB054 /* image_whiteBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 04861B501AB91A0700ABB054 /* image_whiteBack.png */; };
+		04861B531AB91B0600ABB054 /* image_whiteNavigationBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 04861B521AB91B0600ABB054 /* image_whiteNavigationBack.png */; };
+		04861B551AB91BF600ABB054 /* 5-blue-back-button@navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 04861B541AB91BF600ABB054 /* 5-blue-back-button@navigation.png */; };
+		04861B8A1AB97B5F00ABB054 /* image_firework.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04861B891AB97B5F00ABB054 /* image_firework.gif */; };
+		04861B8C1AB9831300ABB054 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04861B8B1AB9831300ABB054 /* UIImage+Gif.swift */; };
+		049DD1901AB5C3E000BD0DD6 /* image_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 049DD18F1AB5C3E000BD0DD6 /* image_photo.png */; };
+		04AF95D31AA5B09C004FA5BD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95D21AA5B09C004FA5BD /* SettingViewController.swift */; };
+		04AF95D51AA5B5E0004FA5BD /* NumberSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95D41AA5B5E0004FA5BD /* NumberSettingViewController.swift */; };
+		04AF95D71AA61D68004FA5BD /* image_number.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AF95D61AA61D68004FA5BD /* image_number.png */; };
+		04AF95D91AA6206C004FA5BD /* button_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AF95D81AA6206C004FA5BD /* button_white.png */; };
+		04AF95DB1AA621F0004FA5BD /* NumberResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95DA1AA621F0004FA5BD /* NumberResultViewController.swift */; };
+		04AF95DD1AA62212004FA5BD /* ImageResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF95DC1AA62212004FA5BD /* ImageResultViewController.swift */; };
+		04BF753F1C5EF09E00BD693A /* Who's lucky? in Resources */ = {isa = PBXBuildFile; fileRef = 04BF753C1C5EF09E00BD693A /* Who's lucky? */; };
+		04BF75401C5EF09E00BD693A /* Who's lucky?Tests in Resources */ = {isa = PBXBuildFile; fileRef = 04BF753D1C5EF09E00BD693A /* Who's lucky?Tests */; };
+		04BF75411C5EF09E00BD693A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 04BF753E1C5EF09E00BD693A /* README.md */; };
+		04C1EDB61B0640B40046B268 /* MicrosoftYaHeiGB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C1EDB51B0640A60046B268 /* MicrosoftYaHeiGB.ttf */; };
+		04C1EDB81B0646880046B268 /* FZLTTH.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 04C1EDB71B0646740046B268 /* FZLTTH.TTF */; };
+		04CF94ED1ACAF9B800993C0D /* image_yelloTransBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CF94EC1ACAF9B800993C0D /* image_yelloTransBall.png */; };
+		04D1BB3C1AA010F600DCCDAB /* Button.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D1BB381AA010F600DCCDAB /* Button.wav */; };
+		04D1BB3D1AA010F600DCCDAB /* Music_background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D1BB391AA010F600DCCDAB /* Music_background.mp3 */; };
+		04D1BB3E1AA010F600DCCDAB /* Music_progress.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D1BB3A1AA010F600DCCDAB /* Music_progress.mp3 */; };
+		04D1BB3F1AA010F600DCCDAB /* Music_win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04D1BB3B1AA010F600DCCDAB /* Music_win.wav */; };
+		04D1BB561AA0110400DCCDAB /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D1BB491AA0110400DCCDAB /* background1.png */; };
+		04D1BB601AA060EC00DCCDAB /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D1BB5F1AA060EC00DCCDAB /* button1.png */; };
+		04DBBE901AD5510100D24A37 /* waitingCat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DBBE8F1AD5510100D24A37 /* waitingCat.gif */; };
+		04DBBE961AD583A300D24A37 /* congratulation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DBBE951AD583A300D24A37 /* congratulation.gif */; };
+		04E48D281C5E19C500D2A34A /* DKImagePickerController in Resources */ = {isa = PBXBuildFile; fileRef = 04E48D251C5E19C500D2A34A /* DKImagePickerController */; };
+		04E48D291C5E19C500D2A34A /* DKImageManager in Resources */ = {isa = PBXBuildFile; fileRef = 04E48D261C5E19C500D2A34A /* DKImageManager */; };
+		04E48D2A1C5E19C500D2A34A /* DKCamera in Resources */ = {isa = PBXBuildFile; fileRef = 04E48D271C5E19C500D2A34A /* DKCamera */; };
+		04E48D391C5E1A7000D2A34A /* DKImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04E48D2B1C5E1A7000D2A34A /* DKImagePickerController.bundle */; };
+		04E48D3A1C5E1A7000D2A34A /* DKImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D2C1C5E1A7000D2A34A /* DKImagePickerController.swift */; };
+		04E48D3B1C5E1A7000D2A34A /* DKImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D2D1C5E1A7000D2A34A /* DKImageResource.swift */; };
+		04E48D3C1C5E1A7000D2A34A /* DKPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D2E1C5E1A7000D2A34A /* DKPopoverViewController.swift */; };
+		04E48D3D1C5E1A7000D2A34A /* DKAssetGroupDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D2F1C5E1A7000D2A34A /* DKAssetGroupDetailVC.swift */; };
+		04E48D3E1C5E1A7000D2A34A /* DKAssetGroupGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D301C5E1A7000D2A34A /* DKAssetGroupGridLayout.swift */; };
+		04E48D3F1C5E1A7000D2A34A /* DKAssetGroupListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D311C5E1A7000D2A34A /* DKAssetGroupListVC.swift */; };
+		04E48D401C5E1A7000D2A34A /* DKPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D321C5E1A7000D2A34A /* DKPermissionView.swift */; };
+		04E48D411C5E1A7000D2A34A /* DKGroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D331C5E1A7000D2A34A /* DKGroupDataManager.swift */; };
+		04E48D421C5E1A7000D2A34A /* DKAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D341C5E1A7000D2A34A /* DKAsset.swift */; };
+		04E48D431C5E1A7000D2A34A /* DKAssetGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D351C5E1A7000D2A34A /* DKAssetGroup.swift */; };
+		04E48D441C5E1A7000D2A34A /* DKImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D361C5E1A7000D2A34A /* DKImageManager.swift */; };
+		04E48D451C5E1A7000D2A34A /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48D371C5E1A7000D2A34A /* DKCamera.swift */; };
+		04E48D461C5E1A7000D2A34A /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04E48D381C5E1A7000D2A34A /* DKCameraResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042822C71A9B5CDF00B60DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042822A91A9B5CDF00B60DA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042822B01A9B5CDF00B60DA9;
+			remoteInfo = "抽奖";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040103521AC005D700B33FE0 /* u40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u40.png; sourceTree = "<group>"; };
+		040103541AC013B300B33FE0 /* image_takePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_takePhoto.png; sourceTree = "<group>"; };
+		0405FC6F1AEE2D4A00A56ACE /* image_border_v1.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_border_v1.1.png; sourceTree = "<group>"; };
+		0405FC711AEE827800A56ACE /* background@v1.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@v1.0.png"; sourceTree = "<group>"; };
+		0405FC7F1AEE877500A56ACE /* icon3-Setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3-Setting@2x.png"; sourceTree = "<group>"; };
+		0405FC801AEE877500A56ACE /* icon3-Spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3-Spotlight@2x.png"; sourceTree = "<group>"; };
+		0405FC811AEE877500A56ACE /* icon3-Spotlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3-Spotlight@3x.png"; sourceTree = "<group>"; };
+		0405FC821AEE877500A56ACE /* icon3@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3@1x.png"; sourceTree = "<group>"; };
+		0405FC831AEE877500A56ACE /* icon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3@2x.png"; sourceTree = "<group>"; };
+		0405FC841AEE877500A56ACE /* icon3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon3@3x.png"; sourceTree = "<group>"; };
+		041718C81C5E6C8600AACC82 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		041718CB1C5E6C9300AACC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		041EEEF81AD98E7B00D59875 /* xingxing_yuan_wubeijing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xingxing_yuan_wubeijing.gif; sourceTree = "<group>"; };
+		0424D45A1C5B6D8200D87777 /* blue_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_line.png; sourceTree = "<group>"; };
+		0424D4621C5B719E00D87777 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		0424D4641C5B756C00D87777 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		0424D4651C5B756C00D87777 /* background@5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@5.png"; sourceTree = "<group>"; };
+		0424D4661C5B756C00D87777 /* background@4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@4.png"; sourceTree = "<group>"; };
+		042822B11A9B5CDF00B60DA9 /* 抽奖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽奖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042822B51A9B5CDF00B60DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042822B61A9B5CDF00B60DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042822B81A9B5CDF00B60DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042822BB1A9B5CDF00B60DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042822BD1A9B5CDF00B60DA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		042822C61A9B5CDF00B60DA9 /* 抽奖Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抽奖Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042822CB1A9B5CDF00B60DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042822CC1A9B5CDF00B60DA9 /* __Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Tests.swift; sourceTree = "<group>"; };
+		045B3E081AB349B90034B65D /* photo_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_checked@2x.png"; sourceTree = "<group>"; };
+		0475F7A31AA4141400447A70 /* button_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_blue.png; sourceTree = "<group>"; };
+		047935881AA49D730068556F /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		047935891AA49D730068556F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		04861B381AB854EE00ABB054 /* 5-blue-menu-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-blue-menu-bar@2x.png"; sourceTree = "<group>"; };
+		04861B3C1AB85F9600ABB054 /* blue-menu-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-menu-bar.png"; sourceTree = "<group>"; };
+		04861B421AB8745B00ABB054 /* 5-blue-background@color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "5-blue-background@color.jpg"; path = "../appBackground/5-blue-background@color.jpg"; sourceTree = "<group>"; };
+		04861B481AB9135F00ABB054 /* blue-navigation-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-navigation-bar.png"; sourceTree = "<group>"; };
+		04861B501AB91A0700ABB054 /* image_whiteBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_whiteBack.png; sourceTree = "<group>"; };
+		04861B521AB91B0600ABB054 /* image_whiteNavigationBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_whiteNavigationBack.png; sourceTree = "<group>"; };
+		04861B541AB91BF600ABB054 /* 5-blue-back-button@navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-blue-back-button@navigation.png"; sourceTree = "<group>"; };
+		04861B891AB97B5F00ABB054 /* image_firework.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image_firework.gif; sourceTree = "<group>"; };
+		04861B8B1AB9831300ABB054 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		049DD18F1AB5C3E000BD0DD6 /* image_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_photo.png; path = ../appImage/image_photo.png; sourceTree = "<group>"; };
+		04AF95D21AA5B09C004FA5BD /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		04AF95D41AA5B5E0004FA5BD /* NumberSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberSettingViewController.swift; sourceTree = "<group>"; };
+		04AF95D61AA61D68004FA5BD /* image_number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_number.png; sourceTree = "<group>"; };
+		04AF95D81AA6206C004FA5BD /* button_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_white.png; sourceTree = "<group>"; };
+		04AF95DA1AA621F0004FA5BD /* NumberResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberResultViewController.swift; sourceTree = "<group>"; };
+		04AF95DC1AA62212004FA5BD /* ImageResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResultViewController.swift; sourceTree = "<group>"; };
+		04BF753C1C5EF09E00BD693A /* Who's lucky? */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Who's lucky?"; sourceTree = "<group>"; };
+		04BF753D1C5EF09E00BD693A /* Who's lucky?Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Who's lucky?Tests"; sourceTree = "<group>"; };
+		04BF753E1C5EF09E00BD693A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04C1EDB51B0640A60046B268 /* MicrosoftYaHeiGB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MicrosoftYaHeiGB.ttf; sourceTree = "<group>"; };
+		04C1EDB71B0646740046B268 /* FZLTTH.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZLTTH.TTF; sourceTree = "<group>"; };
+		04C1EDB91B064BC70046B268 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		04CF94EC1ACAF9B800993C0D /* image_yelloTransBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_yelloTransBall.png; sourceTree = "<group>"; };
+		04D1BB381AA010F600DCCDAB /* Button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Button.wav; sourceTree = "<group>"; };
+		04D1BB391AA010F600DCCDAB /* Music_background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music_background.mp3; sourceTree = "<group>"; };
+		04D1BB3A1AA010F600DCCDAB /* Music_progress.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music_progress.mp3; sourceTree = "<group>"; };
+		04D1BB3B1AA010F600DCCDAB /* Music_win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Music_win.wav; sourceTree = "<group>"; };
+		04D1BB491AA0110400DCCDAB /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		04D1BB5F1AA060EC00DCCDAB /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		04DBBE8F1AD5510100D24A37 /* waitingCat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = waitingCat.gif; sourceTree = "<group>"; };
+		04DBBE951AD583A300D24A37 /* congratulation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = congratulation.gif; sourceTree = "<group>"; };
+		04E48D251C5E19C500D2A34A /* DKImagePickerController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DKImagePickerController; sourceTree = "<group>"; };
+		04E48D261C5E19C500D2A34A /* DKImageManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DKImageManager; sourceTree = "<group>"; };
+		04E48D271C5E19C500D2A34A /* DKCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DKCamera; sourceTree = "<group>"; };
+		04E48D2B1C5E1A7000D2A34A /* DKImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DKImagePickerController.bundle; path = DKImagePickerController/DKImagePickerController.bundle; sourceTree = "<group>"; };
+		04E48D2C1C5E1A7000D2A34A /* DKImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKImagePickerController.swift; path = DKImagePickerController/DKImagePickerController.swift; sourceTree = "<group>"; };
+		04E48D2D1C5E1A7000D2A34A /* DKImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKImageResource.swift; path = DKImagePickerController/DKImageResource.swift; sourceTree = "<group>"; };
+		04E48D2E1C5E1A7000D2A34A /* DKPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKPopoverViewController.swift; path = DKImagePickerController/DKPopoverViewController.swift; sourceTree = "<group>"; };
+		04E48D2F1C5E1A7000D2A34A /* DKAssetGroupDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKAssetGroupDetailVC.swift; path = DKImagePickerController/View/DKAssetGroupDetailVC.swift; sourceTree = "<group>"; };
+		04E48D301C5E1A7000D2A34A /* DKAssetGroupGridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKAssetGroupGridLayout.swift; path = DKImagePickerController/View/DKAssetGroupGridLayout.swift; sourceTree = "<group>"; };
+		04E48D311C5E1A7000D2A34A /* DKAssetGroupListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKAssetGroupListVC.swift; path = DKImagePickerController/View/DKAssetGroupListVC.swift; sourceTree = "<group>"; };
+		04E48D321C5E1A7000D2A34A /* DKPermissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKPermissionView.swift; path = DKImagePickerController/View/DKPermissionView.swift; sourceTree = "<group>"; };
+		04E48D331C5E1A7000D2A34A /* DKGroupDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKGroupDataManager.swift; path = DKImageManager/Data/DKGroupDataManager.swift; sourceTree = "<group>"; };
+		04E48D341C5E1A7000D2A34A /* DKAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKAsset.swift; path = DKImageManager/Data/Model/DKAsset.swift; sourceTree = "<group>"; };
+		04E48D351C5E1A7000D2A34A /* DKAssetGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKAssetGroup.swift; path = DKImageManager/Data/Model/DKAssetGroup.swift; sourceTree = "<group>"; };
+		04E48D361C5E1A7000D2A34A /* DKImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKImageManager.swift; path = DKImageManager/DKImageManager.swift; sourceTree = "<group>"; };
+		04E48D371C5E1A7000D2A34A /* DKCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		04E48D381C5E1A7000D2A34A /* DKCameraResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042822AE1A9B5CDF00B60DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0424D4631C5B719E00D87777 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042822C31A9B5CDF00B60DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042822A81A9B5CDF00B60DA9 = {
+			isa = PBXGroup;
+			children = (
+				04BF753C1C5EF09E00BD693A /* Who's lucky? */,
+				04BF753D1C5EF09E00BD693A /* Who's lucky?Tests */,
+				04BF753E1C5EF09E00BD693A /* README.md */,
+				0424D4621C5B719E00D87777 /* Photos.framework */,
+				042822B31A9B5CDF00B60DA9 /* 抽奖 */,
+				042822C91A9B5CDF00B60DA9 /* 抽奖Tests */,
+				042822B21A9B5CDF00B60DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042822B21A9B5CDF00B60DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042822B11A9B5CDF00B60DA9 /* 抽奖.app */,
+				042822C61A9B5CDF00B60DA9 /* 抽奖Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042822B31A9B5CDF00B60DA9 /* 抽奖 */ = {
+			isa = PBXGroup;
+			children = (
+				041718C81C5E6C8600AACC82 /* zh-Hans.lproj */,
+				04E48D251C5E19C500D2A34A /* DKImagePickerController */,
+				04E48D261C5E19C500D2A34A /* DKImageManager */,
+				04E48D271C5E19C500D2A34A /* DKCamera */,
+				04A51E151ABC174500FD6918 /* font */,
+				042822B61A9B5CDF00B60DA9 /* AppDelegate.swift */,
+				042822B81A9B5CDF00B60DA9 /* ViewController.swift */,
+				042822BA1A9B5CDF00B60DA9 /* Main.storyboard */,
+				04861B8B1AB9831300ABB054 /* UIImage+Gif.swift */,
+				04AF95D21AA5B09C004FA5BD /* SettingViewController.swift */,
+				04AF95DC1AA62212004FA5BD /* ImageResultViewController.swift */,
+				04AF95D41AA5B5E0004FA5BD /* NumberSettingViewController.swift */,
+				04AF95DA1AA621F0004FA5BD /* NumberResultViewController.swift */,
+				04E48D2B1C5E1A7000D2A34A /* DKImagePickerController.bundle */,
+				04E48D2C1C5E1A7000D2A34A /* DKImagePickerController.swift */,
+				04E48D2D1C5E1A7000D2A34A /* DKImageResource.swift */,
+				04E48D2E1C5E1A7000D2A34A /* DKPopoverViewController.swift */,
+				04E48D2F1C5E1A7000D2A34A /* DKAssetGroupDetailVC.swift */,
+				04E48D301C5E1A7000D2A34A /* DKAssetGroupGridLayout.swift */,
+				04E48D311C5E1A7000D2A34A /* DKAssetGroupListVC.swift */,
+				04E48D321C5E1A7000D2A34A /* DKPermissionView.swift */,
+				04E48D331C5E1A7000D2A34A /* DKGroupDataManager.swift */,
+				04E48D341C5E1A7000D2A34A /* DKAsset.swift */,
+				04E48D351C5E1A7000D2A34A /* DKAssetGroup.swift */,
+				04E48D361C5E1A7000D2A34A /* DKImageManager.swift */,
+				04E48D371C5E1A7000D2A34A /* DKCamera.swift */,
+				041718CA1C5E6C9300AACC82 /* LaunchScreen.xib */,
+				04E48D381C5E1A7000D2A34A /* DKCameraResource.bundle */,
+				042822BD1A9B5CDF00B60DA9 /* Images.xcassets */,
+				04D1BB5C1AA0110C00DCCDAB /* appImage */,
+				04D1BB401AA0110400DCCDAB /* appBackground */,
+				04D1BB371AA010F600DCCDAB /* music */,
+				048301901A9F1204001B2736 /* Icon */,
+				042822B41A9B5CDF00B60DA9 /* Supporting Files */,
+			);
+			path = "抽奖";
+			sourceTree = "<group>";
+		};
+		042822B41A9B5CDF00B60DA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042822B51A9B5CDF00B60DA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042822C91A9B5CDF00B60DA9 /* 抽奖Tests */ = {
+			isa = PBXGroup;
+			children = (
+				042822CC1A9B5CDF00B60DA9 /* __Tests.swift */,
+				042822CA1A9B5CDF00B60DA9 /* Supporting Files */,
+			);
+			path = "抽奖Tests";
+			sourceTree = "<group>";
+		};
+		042822CA1A9B5CDF00B60DA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042822CB1A9B5CDF00B60DA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048301901A9F1204001B2736 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				0405FC7F1AEE877500A56ACE /* icon3-Setting@2x.png */,
+				0405FC801AEE877500A56ACE /* icon3-Spotlight@2x.png */,
+				0405FC811AEE877500A56ACE /* icon3-Spotlight@3x.png */,
+				0405FC821AEE877500A56ACE /* icon3@1x.png */,
+				0405FC831AEE877500A56ACE /* icon3@2x.png */,
+				0405FC841AEE877500A56ACE /* icon3@3x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		04A51E151ABC174500FD6918 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				04C1EDB71B0646740046B268 /* FZLTTH.TTF */,
+				04C1EDB51B0640A60046B268 /* MicrosoftYaHeiGB.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		04D1BB371AA010F600DCCDAB /* music */ = {
+			isa = PBXGroup;
+			children = (
+				04D1BB381AA010F600DCCDAB /* Button.wav */,
+				04D1BB391AA010F600DCCDAB /* Music_background.mp3 */,
+				04D1BB3A1AA010F600DCCDAB /* Music_progress.mp3 */,
+				04D1BB3B1AA010F600DCCDAB /* Music_win.wav */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		04D1BB401AA0110400DCCDAB /* appBackground */ = {
+			isa = PBXGroup;
+			children = (
+				0424D4641C5B756C00D87777 /* background@2x.png */,
+				0424D4651C5B756C00D87777 /* background@5.png */,
+				0424D4661C5B756C00D87777 /* background@4.png */,
+				0405FC711AEE827800A56ACE /* background@v1.0.png */,
+				049DD18F1AB5C3E000BD0DD6 /* image_photo.png */,
+				04AF95D61AA61D68004FA5BD /* image_number.png */,
+				04D1BB491AA0110400DCCDAB /* background1.png */,
+			);
+			path = appBackground;
+			sourceTree = "<group>";
+		};
+		04D1BB5C1AA0110C00DCCDAB /* appImage */ = {
+			isa = PBXGroup;
+			children = (
+				0424D45A1C5B6D8200D87777 /* blue_line.png */,
+				0405FC6F1AEE2D4A00A56ACE /* image_border_v1.1.png */,
+				041EEEF81AD98E7B00D59875 /* xingxing_yuan_wubeijing.gif */,
+				04DBBE951AD583A300D24A37 /* congratulation.gif */,
+				04DBBE8F1AD5510100D24A37 /* waitingCat.gif */,
+				04CF94EC1ACAF9B800993C0D /* image_yelloTransBall.png */,
+				040103541AC013B300B33FE0 /* image_takePhoto.png */,
+				040103521AC005D700B33FE0 /* u40.png */,
+				04861B421AB8745B00ABB054 /* 5-blue-background@color.jpg */,
+				04861B891AB97B5F00ABB054 /* image_firework.gif */,
+				04861B541AB91BF600ABB054 /* 5-blue-back-button@navigation.png */,
+				04861B521AB91B0600ABB054 /* image_whiteNavigationBack.png */,
+				04861B501AB91A0700ABB054 /* image_whiteBack.png */,
+				04861B481AB9135F00ABB054 /* blue-navigation-bar.png */,
+				04861B3C1AB85F9600ABB054 /* blue-menu-bar.png */,
+				04861B381AB854EE00ABB054 /* 5-blue-menu-bar@2x.png */,
+				045B3E081AB349B90034B65D /* photo_checked@2x.png */,
+				04AF95D81AA6206C004FA5BD /* button_white.png */,
+				047935881AA49D730068556F /* pause.png */,
+				047935891AA49D730068556F /* play.png */,
+				0475F7A31AA4141400447A70 /* button_blue.png */,
+				04D1BB5F1AA060EC00DCCDAB /* button1.png */,
+			);
+			path = appImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042822B01A9B5CDF00B60DA9 /* 抽奖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042822D01A9B5CDF00B60DA9 /* Build configuration list for PBXNativeTarget "抽奖" */;
+			buildPhases = (
+				042822AD1A9B5CDF00B60DA9 /* Sources */,
+				042822AE1A9B5CDF00B60DA9 /* Frameworks */,
+				042822AF1A9B5CDF00B60DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "抽奖";
+			productName = "抽奖";
+			productReference = 042822B11A9B5CDF00B60DA9 /* 抽奖.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042822C51A9B5CDF00B60DA9 /* 抽奖Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042822D31A9B5CDF00B60DA9 /* Build configuration list for PBXNativeTarget "抽奖Tests" */;
+			buildPhases = (
+				042822C21A9B5CDF00B60DA9 /* Sources */,
+				042822C31A9B5CDF00B60DA9 /* Frameworks */,
+				042822C41A9B5CDF00B60DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042822C81A9B5CDF00B60DA9 /* PBXTargetDependency */,
+			);
+			name = "抽奖Tests";
+			productName = "抽奖Tests";
+			productReference = 042822C61A9B5CDF00B60DA9 /* 抽奖Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042822A91A9B5CDF00B60DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bobo;
+				TargetAttributes = {
+					042822B01A9B5CDF00B60DA9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = KT2Q2UDTZ3;
+					};
+					042822C51A9B5CDF00B60DA9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 042822B01A9B5CDF00B60DA9;
+					};
+				};
+			};
+			buildConfigurationList = 042822AC1A9B5CDF00B60DA9 /* Build configuration list for PBXProject "Who's lucky?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042822A81A9B5CDF00B60DA9;
+			productRefGroup = 042822B21A9B5CDF00B60DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042822B01A9B5CDF00B60DA9 /* 抽奖 */,
+				042822C51A9B5CDF00B60DA9 /* 抽奖Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042822AF1A9B5CDF00B60DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C1EDB81B0646880046B268 /* FZLTTH.TTF in Resources */,
+				04BF753F1C5EF09E00BD693A /* Who's lucky? in Resources */,
+				04C1EDB61B0640B40046B268 /* MicrosoftYaHeiGB.ttf in Resources */,
+				041718C91C5E6C8600AACC82 /* zh-Hans.lproj in Resources */,
+				0405FC701AEE2D4A00A56ACE /* image_border_v1.1.png in Resources */,
+				0405FC891AEE877500A56ACE /* icon3@2x.png in Resources */,
+				04AF95D71AA61D68004FA5BD /* image_number.png in Resources */,
+				04CF94ED1ACAF9B800993C0D /* image_yelloTransBall.png in Resources */,
+				04DBBE961AD583A300D24A37 /* congratulation.gif in Resources */,
+				0405FC871AEE877500A56ACE /* icon3-Spotlight@3x.png in Resources */,
+				04861B391AB854EE00ABB054 /* 5-blue-menu-bar@2x.png in Resources */,
+				041718CC1C5E6C9300AACC82 /* LaunchScreen.xib in Resources */,
+				0405FC721AEE827800A56ACE /* background@v1.0.png in Resources */,
+				0424D4671C5B756C00D87777 /* background@2x.png in Resources */,
+				040103551AC013B300B33FE0 /* image_takePhoto.png in Resources */,
+				04861B551AB91BF600ABB054 /* 5-blue-back-button@navigation.png in Resources */,
+				04861B431AB8745B00ABB054 /* 5-blue-background@color.jpg in Resources */,
+				04D1BB561AA0110400DCCDAB /* background1.png in Resources */,
+				04E48D291C5E19C500D2A34A /* DKImageManager in Resources */,
+				04AF95D91AA6206C004FA5BD /* button_white.png in Resources */,
+				0424D45B1C5B6D8200D87777 /* blue_line.png in Resources */,
+				049DD1901AB5C3E000BD0DD6 /* image_photo.png in Resources */,
+				040103531AC005D700B33FE0 /* u40.png in Resources */,
+				0405FC881AEE877500A56ACE /* icon3@1x.png in Resources */,
+				04E48D461C5E1A7000D2A34A /* DKCameraResource.bundle in Resources */,
+				041EEEF91AD98E7B00D59875 /* xingxing_yuan_wubeijing.gif in Resources */,
+				04D1BB3C1AA010F600DCCDAB /* Button.wav in Resources */,
+				0405FC851AEE877500A56ACE /* icon3-Setting@2x.png in Resources */,
+				0424D4691C5B756C00D87777 /* background@4.png in Resources */,
+				0475F7A41AA4141400447A70 /* button_blue.png in Resources */,
+				04D1BB3D1AA010F600DCCDAB /* Music_background.mp3 in Resources */,
+				04861B491AB9135F00ABB054 /* blue-navigation-bar.png in Resources */,
+				04861B511AB91A0700ABB054 /* image_whiteBack.png in Resources */,
+				04861B531AB91B0600ABB054 /* image_whiteNavigationBack.png in Resources */,
+				04E48D2A1C5E19C500D2A34A /* DKCamera in Resources */,
+				04DBBE901AD5510100D24A37 /* waitingCat.gif in Resources */,
+				04D1BB601AA060EC00DCCDAB /* button1.png in Resources */,
+				0424D4681C5B756C00D87777 /* background@5.png in Resources */,
+				042822BC1A9B5CDF00B60DA9 /* Main.storyboard in Resources */,
+				04D1BB3F1AA010F600DCCDAB /* Music_win.wav in Resources */,
+				04D1BB3E1AA010F600DCCDAB /* Music_progress.mp3 in Resources */,
+				045B3E091AB349B90034B65D /* photo_checked@2x.png in Resources */,
+				0405FC861AEE877500A56ACE /* icon3-Spotlight@2x.png in Resources */,
+				0479358A1AA49D730068556F /* pause.png in Resources */,
+				0405FC8A1AEE877500A56ACE /* icon3@3x.png in Resources */,
+				04E48D391C5E1A7000D2A34A /* DKImagePickerController.bundle in Resources */,
+				0479358B1AA49D730068556F /* play.png in Resources */,
+				04BF75401C5EF09E00BD693A /* Who's lucky?Tests in Resources */,
+				04861B8A1AB97B5F00ABB054 /* image_firework.gif in Resources */,
+				04861B3D1AB85F9600ABB054 /* blue-menu-bar.png in Resources */,
+				042822BE1A9B5CDF00B60DA9 /* Images.xcassets in Resources */,
+				04E48D281C5E19C500D2A34A /* DKImagePickerController in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042822C41A9B5CDF00B60DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042822AD1A9B5CDF00B60DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E48D3B1C5E1A7000D2A34A /* DKImageResource.swift in Sources */,
+				04E48D3D1C5E1A7000D2A34A /* DKAssetGroupDetailVC.swift in Sources */,
+				04BF75411C5EF09E00BD693A /* README.md in Sources */,
+				04E48D431C5E1A7000D2A34A /* DKAssetGroup.swift in Sources */,
+				04E48D401C5E1A7000D2A34A /* DKPermissionView.swift in Sources */,
+				04E48D411C5E1A7000D2A34A /* DKGroupDataManager.swift in Sources */,
+				042822B91A9B5CDF00B60DA9 /* ViewController.swift in Sources */,
+				04E48D441C5E1A7000D2A34A /* DKImageManager.swift in Sources */,
+				04E48D451C5E1A7000D2A34A /* DKCamera.swift in Sources */,
+				04E48D3E1C5E1A7000D2A34A /* DKAssetGroupGridLayout.swift in Sources */,
+				04AF95DD1AA62212004FA5BD /* ImageResultViewController.swift in Sources */,
+				04E48D421C5E1A7000D2A34A /* DKAsset.swift in Sources */,
+				042822B71A9B5CDF00B60DA9 /* AppDelegate.swift in Sources */,
+				04AF95DB1AA621F0004FA5BD /* NumberResultViewController.swift in Sources */,
+				04E48D3A1C5E1A7000D2A34A /* DKImagePickerController.swift in Sources */,
+				04AF95D51AA5B5E0004FA5BD /* NumberSettingViewController.swift in Sources */,
+				04861B8C1AB9831300ABB054 /* UIImage+Gif.swift in Sources */,
+				04AF95D31AA5B09C004FA5BD /* SettingViewController.swift in Sources */,
+				04E48D3C1C5E1A7000D2A34A /* DKPopoverViewController.swift in Sources */,
+				04E48D3F1C5E1A7000D2A34A /* DKAssetGroupListVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042822C21A9B5CDF00B60DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042822CD1A9B5CDF00B60DA9 /* __Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042822C81A9B5CDF00B60DA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042822B01A9B5CDF00B60DA9 /* 抽奖 */;
+			targetProxy = 042822C71A9B5CDF00B60DA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041718CA1C5E6C9300AACC82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041718CB1C5E6C9300AACC82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		042822BA1A9B5CDF00B60DA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042822BB1A9B5CDF00B60DA9 /* Base */,
+				04C1EDB91B064BC70046B268 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042822CE1A9B5CDF00B60DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042822CF1A9B5CDF00B60DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042822D11A9B5CDF00B60DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "抽奖/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yubo.lucky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		042822D21A9B5CDF00B60DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "抽奖/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yubo.lucky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		042822D41A9B5CDF00B60DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "抽奖Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xuyubo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/抽奖.app/抽奖";
+			};
+			name = Debug;
+		};
+		042822D51A9B5CDF00B60DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "抽奖Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xuyubo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/抽奖.app/抽奖";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042822AC1A9B5CDF00B60DA9 /* Build configuration list for PBXProject "Who's lucky?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042822CE1A9B5CDF00B60DA9 /* Debug */,
+				042822CF1A9B5CDF00B60DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042822D01A9B5CDF00B60DA9 /* Build configuration list for PBXNativeTarget "抽奖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042822D11A9B5CDF00B60DA9 /* Debug */,
+				042822D21A9B5CDF00B60DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042822D31A9B5CDF00B60DA9 /* Build configuration list for PBXNativeTarget "抽奖Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042822D41A9B5CDF00B60DA9 /* Debug */,
+				042822D51A9B5CDF00B60DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042822A91A9B5CDF00B60DA9 /* Project object */;
+}
